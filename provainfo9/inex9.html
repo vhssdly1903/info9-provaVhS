@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .cabeca{
+        display: flex;
+        background-color: #9D8080;
+        justify-content: space-around;
+            align-items: center;
+           
+            
+    }
+        .cabeca a {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 10px;
+    }
+
+    .container {
+           display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            text-align: center;
+            color: white;
+}
+.text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%) ;
+
+}
+.button button {
+        background-color: whitesmoke;
+        color: black;
+        height: 45px;
+        width: 100px;
+        border-radius: 4px;
+        border: 2px solid whitesmoke;
+        opacity: 0.7;
+    }
+
+.hotel {
+    display: flex;
+text-align: center;
+height: 400px;
+align-items: center;
+justify-content: center; 
+
+}
+.imagens{
+        display: flex;
+        background-color: #C3C63B;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .imagens2{
+        display: flex;
+        background-color: #C3C63B;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .musgo{
+        display: flex;
+        background-color: #191C03;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        color: white;
+    }
+    .container-pai {
+        display: flex;
+        align-items: center;
+        background-color: #191C03;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .container-filho{
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 300px 300px 300px;
+        grid-column-gap: 110px;
+        place-items: center;
+        text-align: center;
+        background-color: #191C03;
+    }
+    .titulo{
+        color: #C3C63B;
+    
+    }
+    .texto{
+        color: white;
+    }
+    .logo{
+        filter: invert(100%);
+    }
+    .New{
+        display: flex;
+        text-align: center;
+        color: #C3C63B;
+        height: 600px;
+        align-items: center;
+        flex-direction: column;
+        align-content: end;
+        justify-content: space-evenly;
+}
+.relacao{
+    display: flex;
+    flex-direction: row;
+   column-gap: 15px;
+}
+.email input[type="text"] {
+        border: 2px solid  #C3C63B;
+        width: 550px;
+        height: 40px;
+        border-radius: 4px;
+    }
+
+    .botao button {
+        background-color:  #C3C63B;
+        color: white;
+        height: 45px;
+        border-radius: 4px;
+        border: 2px solid  #C3C63B;
+    }
+     .iconss{
+        display: flex;
+        background-color: #343905; 
+        flex-direction: row;
+        justify-content: center;  
+        height: 100px;
+        align-items: flex-end;       
+     }
+
+
+.face{
+    filter: invert(100%);
+}
+.Snap{
+    filter: invert(100%);
+}
+.twitter{
+    filter: invert(100%);
+}
+    .Pint{
+        filter: invert(100%);
+    }
+
+     .direito{
+        display: flex;
+        background-color: #343905; 
+        flex-direction: row;
+        justify-content: center;  
+        color:  #b1b524;
+        align-items: flex-start;
+        height: 100px;
+     }
+
+
+
+
+     .preto {
+            width: 20%; 
+            margin: 20px auto; 
+            height: 1px;
+            background-color: black; 
+        }
+
+        .branco {
+            width: 15%; 
+            margin: 20px auto; 
+            height: 1px;
+            background-color: white; 
+        }
+
+        .verde {
+            width: 15%; 
+            margin: 20px auto; 
+            height: 1px;
+            background-color: #C3C63B; 
+        }
+
+
+
+
+
+
+
+
+     @media screen and (max-width: 768px) {
+            .cabeca {
+                flex-direction: column;
+                align-items: center;
+            }
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .text {
+                flex-direction: column;
+                align-items: center;
+            }
+            .hotel {
+                flex-direction: column;
+                align-items: center;
+            }
+            .imagens {
+                flex-direction: column;
+                align-items: center;
+            } 
+            .imagens2 {
+                flex-direction: column;
+                align-items: center;
+            }
+            .musgo {
+                flex-direction: column;
+                align-items: center;
+            }
+            .container-pai {
+                flex-direction: column;
+                align-items: center;
+            }
+            .container-filho {
+                flex-direction: column;
+                align-items: center;
+            }
+            .New {
+                flex-direction: column;
+                align-items: center;
+            }
+            .iconss {
+                flex-direction: row;
+                align-items: center;
+            }
+            
+        }
+    </style>
+</head>
+
+
+
+<body background-color="white">
+    <header> 
+        <div class="cabeca">
+            <div class="img">
+                <img src="logo.png" height="50px">
+            </div>
+            <div class="palavras">
+                <a href=""> Home</a>
+                <a href=""> Sobre</a>
+                <a href=""> Reservas</a>
+                <a href=""> Contato</a>
+            </div>            
+        </div> 
+    
+    </header>
+
+
+
+
+
+  
+		<div class="container">        
+                <img
+                    src="hero.jpg" height="700px" width="1496Spx">
+                    <div class="text">
+                        <h1> Conheça este paraiso chamado Itacaré</h1> 
+                        <h2>"Aconchego,conforto,simpatia e alto astral"</h2>
+                       <div class="button"> <button>SAIBA MAIS</button> </div>
+                    </div>                                    
+          </div>
+    
+
+
+
+
+
+    <div class="hotel">
+    <div> <h1> Conheça o Hotel Paraíso</h1>
+     <p>Feche os olhos e imagine o paraíso. Um lugar no meio da mata Atlântica e banhado
+        pelo mar, onde você encontra paz,</p>
+        <p>tranquilidade,conforto e comodidade.</p>
+        <hr class="preto">
+    </div>
+</div>
+
+
+
+
+
+   <div class="imagens">
+    <img  src="itacare-01.jpg" height="500px" width="600px">
+    <img  src="itacare-02.jpg" height="500px" width="750px">
+
+   </div>
+
+   <div class="imagens2">
+    <img  src="itacare-03.jpg" height="500px" width="750px">
+    <img  src="itacare-04.jpg" height="500px" width="600px">
+
+   </div>
+
+<div class="musgo">
+    <h1>Único Hotel pé na areia de itacaré</h1>
+    <p>Implantado em uma área completamente arborizada, o Hotel Paraíso é o único hotel pé na areia de Itacaré.Aqui o mar será
+        seu companheiro e você terá as belezas naturais como galeria.
+    </p>
+    <hr class="branco">
+
+</div>
+<div class="container-pai">
+    <div class="container-filho">
+        <div class="logo">  <img src="navegacao-gps.png" height="50px" width="50px" > </div>
+        <div class="logo"> <img src="presente.png"height="50px" width="50px"> </div>
+        <div class="logo"> <img src="casa.png" height="50px" width="50px"></div>
+        <div class="titulo"><h1>Localização</h1 > </div>
+        <div class="titulo"> <h1>Pacote de ofertas</h1>  </div>
+        <div class="titulo"> <h1>Acomodações</h1> </div>
+        <div class="texto"> <p>Localizado no sul da Bahia, entre o mar e a mata
+            Atlântica,Itacaré tem refrescante cachoeira e praias
+            belíssimas, muitas delas tão pequenas que nem
+            aparecem no mapa</p></div>
+        <div class="texto"> <p>Sabe aquele descontraido encontro com a família e
+            amigos?Ou um momento relax?Nossa rede conta
+            com uma diversidade de espaços que proporcionam
+            momentos inesquecíveis.</p></div>
+        <div class="texto"> <p>Hotel Paraíso possui 29 unidades, divididas entre 11
+           chalés, 16 amplas suítes e 2 chalés familiar, todas com
+            tv a cabo, frigobar, além da varanda com rede.</p></div>
+        
+    </div>
+    
+
+</div>
+
+
+<div class="New">
+   <div> <h1>Newsletter</h1> 
+    <p>Assine nossa newletter para se manter atualizado com nossos serviços e programação de nossas atividades culturais.</p> 
+ <br>
+
+    <hr class="verde"> 
+</div>
+<div class="relacao">
+  <div class="email">  <input type="text" name="email" placeholder="E-mail"> </div>
+      <div class="botao">  <button>CADASTRAR</button></div> 
+    </div>
+</div>
+</div>
+
+
+<div class="iconss">
+    <div class="face">
+        <img src="facebook.png" height="50px" width="50px">  
+    </div>
+    <div class="twitter">
+        <img src="twitter.png" height="50px" width="50px">  
+    </div>
+    <div class="Snap">
+        <img src="snapchat.png" height="50px" width="50px">  
+    </div>
+    <div class="Pint">
+        <img src="pinterest.png" height="50px" width="50px">  
+    </div>
+</div>
+
+<div class="direito">
+    Todos os direitos reservados-Hotel Paraíso- 2023
+
+</div>
+
+
+
+</body>
+</html>
